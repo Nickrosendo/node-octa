@@ -1,0 +1,12 @@
+<h1> {{ title }} </h1>
+<p> Wellcome to {{ title }} </p>
+
+{{# if condition }}
+ Valor true
+ {{ else }}
+ Valor false 
+{{/ if}}
+<br>
+{{# each numbers as |val key|}}
+ {{ val }} <br>
+{{/each}}
